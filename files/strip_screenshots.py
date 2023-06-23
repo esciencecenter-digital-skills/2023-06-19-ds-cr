@@ -49,10 +49,11 @@ if __name__ == "__main__":
 
     # do not include the final / in the URLs below
     markdown_url = "https://codimd.carpentries.org/uploads"
+    imgur_url = "https://i.imgur.com"
     #markdown_url = "https://hackmd.io/_uploads"
 
-    extract_screenshots(col1, markdown_url)
-    extract_screenshots(col2, markdown_url)
-    extract_screenshots(col3, markdown_url)
-    extract_screenshots(col4, markdown_url)
+    extract_screenshots(col1, imgur_url)
+    extract_screenshots(col2, imgur_url)
+    extract_screenshots(col3, imgur_url)
+    extract_screenshots(col4, imgur_url)
 
